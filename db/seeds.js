@@ -11,8 +11,8 @@ Project.remove({}, (err) => console.log(err));
 const blackjack = new Project({
     title: "Blackjack",
     description: "A browser rendered blackjack game.  Made using HTML, CSS and JQuery.",
-    deployedlink: "http://eric-jonelunas-blackjack.bitballoon.com/",
-    githublink: "https://github.com/ejjonzey/blackjack-game",    
+    githubUrl: "http://github.com/ejjonzey/blackjack-game",        
+    siteLink: "http://eric-jonelunas-blackjack.bitballoon.com/",
 });
 
 blackjack.save().then(() => console.log("Project Saved!"))
